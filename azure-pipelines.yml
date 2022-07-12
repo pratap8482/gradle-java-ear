@@ -13,7 +13,7 @@ steps:
 
 - task: CmdLine@2
   inputs:
-    script: 'chmod 755 gradlew'
+    script: 'chmod 755 /home/vsts/work/1/s/gradlew'
 - task: Gradle@3
   inputs:
     gradleWrapperFile: 'gradlew'
